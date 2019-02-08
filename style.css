@@ -38,7 +38,7 @@
 }
 
 .right-inner {
-  margin: 30% 10%;
+  margin: 10% 10%;
 }
 
 .home-heading, .home-sub-heading {
@@ -49,8 +49,8 @@
   margin-top: 15%;
 }
 
-.home-heading {
-  margin: 5%;
+.home-heading, .main-section {
+  margin: 1%;
 }
 
 ul {

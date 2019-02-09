@@ -62,21 +62,6 @@ ul {
   margin: 2% 0 0 5%;
 }
 
-
-/* @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-} */
-
-
-/* 
-@media only screen and (max-width: 600px) {
-  .left, .right {
-    height: 50vh;
-  }
-} */
-
 .main-title {
   color: grey;
 }
@@ -93,16 +78,30 @@ ul {
   margin: 0 10px;
 }
 
-
 @media only screen and (max-width: 900px) {
-  .navigation-extend-bar {
-    display: inline;
-  }
-  .person-image,
-  .person-content,
   .navigation-extendable, 
-  .block block-social {
+  .block-title {
     display: none;
   }
-} 
 
+}
+
+@media only screen and (max-width: 1023px) {
+  nav, .block-content {
+    display: none;
+  }
+  .navigation-extend-bar {
+    display: flex;
+  }
+  .left {
+    height: 50vh;
+  }
+  .my-image {
+    width: 25vw;
+  }
+}
+
+
+/*
+1024, 
+*/
